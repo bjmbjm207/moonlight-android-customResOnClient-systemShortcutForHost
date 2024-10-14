@@ -2,6 +2,8 @@
 ## Thanks to:
 * https://github.com/MaurilhoB/moonlight-android to custom Res
 * https://github.com/lyc8503/moonlight-android-no-keyboard-shortcut to add systemShortcutForHost
+EN =Go to setup, find Moonlight Physical Keyboard in accessibility and turn it on to send system shortcuts to Host.
+VN =Vào phần setup tìm trong trợ năng phần Moonlight Physical Keyboard rồi bật nó lên sẽ gửi được system shortcut tới cho Host.
 
 # ORIGINAL MOONLIGHT
 ## Moonlight Android
