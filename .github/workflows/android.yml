@@ -29,7 +29,7 @@ jobs:
         unzip commandlinetools-linux-11076708_latest.zip
         export PATH=$PATH:/home/runner/android/cmdline-tools/bin/
         
-        yes | sdkmanager --sdk_root=/home/runner/android "platforms;android-34" "build-tools;34.0.0" "ndk;26.2.11394342"
+        yes | sdkmanager --sdk_root=/home/runner/android "platforms;android-34" "build-tools;34.0.0" "ndk;27.0.12077973"
 
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
@@ -38,7 +38,7 @@ jobs:
       run: git submodule update --init --recursive
 
     - name: Create local.properties
-      run: echo "ndk.dir=/home/runner/android/ndk/26.2.11394342" > local.properties
+      run: echo "ndk.dir=/home/runner/android/ndk/27.0.12077973" > local.properties
 
     - name: Build with Gradle
       run: | 
