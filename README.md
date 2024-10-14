@@ -1,4 +1,10 @@
-# Moonlight Android
+# MOONLIGHT EXTRA
+## Thanks to:
+* https://github.com/MaurilhoB/moonlight-android to custom Res
+* https://github.com/lyc8503/moonlight-android-no-keyboard-shortcut to add systemShortcutForHost
+
+# ORIGINAL MOONLIGHT
+## Moonlight Android
 
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/232a8tadrrn8jv0k/branch/master?svg=true)](https://ci.appveyor.com/project/cgutman/moonlight-android/branch/master)
 [![Translation Status](https://hosted.weblate.org/widgets/moonlight/-/moonlight-android/svg-badge.svg)](https://hosted.weblate.org/projects/moonlight/moonlight-android/)
@@ -12,19 +18,19 @@ Moonlight also has a [PC client](https://github.com/moonlight-stream/moonlight-q
 
 You can follow development on our [Discord server](https://moonlight-stream.org/discord) and help translate Moonlight into your language on [Weblate](https://hosted.weblate.org/projects/moonlight/moonlight-android/).
 
-## Downloads
+### Downloads
 * [Google Play Store](https://play.google.com/store/apps/details?id=com.limelight)
 * [Amazon App Store](https://www.amazon.com/gp/product/B00JK4MFN2)
 * [F-Droid](https://f-droid.org/packages/com.limelight)
 * [APK](https://github.com/moonlight-stream/moonlight-android/releases)
 
-## Building
+### Building
 * Install Android Studio and the Android NDK
 * Run ‘git submodule update --init --recursive’ from within moonlight-android/
 * In moonlight-android/, create a file called ‘local.properties’. Add an ‘ndk.dir=’ property to the local.properties file and set it equal to your NDK directory.
 * Build the APK using Android Studio or gradle
 
-## Authors
+### Authors
 
 * [Cameron Gutman](https://github.com/cgutman)  
 * [Diego Waxemberg](https://github.com/dwaxemberg)  
